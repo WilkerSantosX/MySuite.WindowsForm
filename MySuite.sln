@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcessoBancoDados", "AcessoBancoDados\AcessoBancoDados.csproj", "{21CE2425-DD48-4629-B526-BE3F2AFDFF5D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Models", "Models\Models.csproj", "{25E12AB8-36B3-4B0E-B2E2-E472558D450D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BancoDados", "BancoDados", "{4B219949-EC96-4C7D-888E-3BE7B7D24ABB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Apresentacao", "Apresentacao", "{D988C2DF-C14A-451A-A280-573D88F9EBDF}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Negocios", "Negocios", "{A62969A0-230D-403F-A015-3E2FC802205D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modelo", "Modelo", "{205147AB-4071-459F-A787-9E2002BF50AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpDesk_Forms", "Apresentacao\HelpDesk_Forms\HelpDesk_Forms.csproj", "{F096B8B0-9037-4090-845A-870CDA8510E3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HelpdeskService", "HelpdeskService\HelpdeskService.csproj", "{0551BCC7-2D03-43CF-92F7-A686449EDCB5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{21CE2425-DD48-4629-B526-BE3F2AFDFF5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{21CE2425-DD48-4629-B526-BE3F2AFDFF5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{21CE2425-DD48-4629-B526-BE3F2AFDFF5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{21CE2425-DD48-4629-B526-BE3F2AFDFF5D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E12AB8-36B3-4B0E-B2E2-E472558D450D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E12AB8-36B3-4B0E-B2E2-E472558D450D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E12AB8-36B3-4B0E-B2E2-E472558D450D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E12AB8-36B3-4B0E-B2E2-E472558D450D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F096B8B0-9037-4090-845A-870CDA8510E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F096B8B0-9037-4090-845A-870CDA8510E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F096B8B0-9037-4090-845A-870CDA8510E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F096B8B0-9037-4090-845A-870CDA8510E3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0551BCC7-2D03-43CF-92F7-A686449EDCB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0551BCC7-2D03-43CF-92F7-A686449EDCB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0551BCC7-2D03-43CF-92F7-A686449EDCB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0551BCC7-2D03-43CF-92F7-A686449EDCB5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{21CE2425-DD48-4629-B526-BE3F2AFDFF5D} = {4B219949-EC96-4C7D-888E-3BE7B7D24ABB}
+		{25E12AB8-36B3-4B0E-B2E2-E472558D450D} = {205147AB-4071-459F-A787-9E2002BF50AD}
+		{F096B8B0-9037-4090-845A-870CDA8510E3} = {D988C2DF-C14A-451A-A280-573D88F9EBDF}
+		{0551BCC7-2D03-43CF-92F7-A686449EDCB5} = {A62969A0-230D-403F-A015-3E2FC802205D}
+	EndGlobalSection
+EndGlobal
